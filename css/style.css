@@ -75,7 +75,6 @@ body{
 	position: relative;
 }
 .nav__btn {
-	
     display: inline-block;
     color: white;
     font-weight: 500;
@@ -90,10 +89,12 @@ body{
 .nav__btn:hover{
     background-color: #F6762C;
 }
-.active{
+/* .active{
  
-}
+} */
 
+/* header content  */
 
+/* сюда код сс */
 
 
