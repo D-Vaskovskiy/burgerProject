@@ -192,3 +192,54 @@ body{
 #pizza-title{
     padding: 0 85px;
 }
+.spec-offer-1{
+    background-color: #312F30;
+    min-height: 550px;
+}
+.king-img{
+    margin-left: 202px;
+}
+.king-title{
+    color: #FFFFFF;
+    position: relative;
+    margin-left: 909px;
+    margin-top: -330px;
+    font-weight: 500;
+    font-size: 44.2px;
+}
+.king-subtitle{
+    position: absolute;
+    color: #FFFFFF;
+    opacity: 0.7;
+    width: 368px;
+    font-size: 16px;
+    margin-left: 905px;
+    margin-top: 24px;
+}
+.new-price{
+    position: absolute;
+    color: #F6762C;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    margin-left: 907px;
+    margin-top: 79px;
+}
+.last-price{
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-decoration-line: line-through;
+    color: #F6762C;
+    opacity: 0.5;
+    margin-left: 938px;
+    margin-top: 81px;
+}
+#king-btn{
+    position: absolute;
+    margin-left: 912px;
+    margin-top: 130px;
+}
+/* .spec-offer-2{
+    background-color: #312F30;
+
+} */
