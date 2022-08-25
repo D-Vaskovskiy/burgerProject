@@ -40,6 +40,7 @@ body{
     min-height: 886px;
     color: #fff;
     background-image: url(./../img/header/header-bgi.png);
+    max-width: 1600;
     background-repeat: no-repeat;
     background-position: center;
     
@@ -66,6 +67,7 @@ body{
 	font-size: 15px;
 	font-weight: 500;
     opacity: 0.7;
+    transition: 0.2s;
 }
 
 
@@ -74,7 +76,7 @@ body{
 .nav__list a {
 	position: relative;
 }
-.nav__btn {
+.btn {
     display: inline-block;
     color: white;
     font-weight: 500;
@@ -84,17 +86,109 @@ body{
     outline: none;
     border: 2px solid;
     border-radius: 5px;
-    transition: 0.9s;
+    transition: 0.2s ease;
 }
-.nav__btn:hover{
+.btn:hover{
+    margin-top: 2px;
     background-color: #F6762C;
 }
 /* .active{
  
 } */
+ 
+    /* header content  */
 
-/* header content  */
+ .header__content{
+    position: absolute;
+    padding-top: 177px;
+    
+    width: 555px;
+    color:  #FFFFFF;
+    font-weight: 500;
+    left: 229px;
+}   
 
-/* сюда код сс */
+.header__name{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 7px;
+}
+.header__title{
+    font-size: 57.33px;
+    line-height: 67px;
+    color: inherit;
+    margin-bottom: 37px;
+}
+.header__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 42px;
+}   
 
+.button__header{
+    margin-bottom: 241px;
+}
+/* section soup slide  */
 
+.menu-card{
+    background-color: #1C1C1C;
+    padding-top: 124px;
+    padding-bottom: 102px;
+    font-weight: 500;
+    left: 230px;
+    color: #fff;
+
+}
+.card__row{
+    display: flex;
+    column-gap: 31px;
+}
+.card{
+
+    position: relative;
+    width: 262px;
+    height: 323px;
+    background-color:  #312F30;
+    border-radius: 10px;
+
+}
+.soup__img{
+    width: 262px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.soup__title{
+    padding: 0 64px;
+    position: absolute;
+    margin-top: 28px;
+    color: #fff;
+    height: 23px;
+    font-size: 20px;
+    line-height: 23px;   
+}
+.soup__text{
+    padding-top: 63px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.7;
+}
+.meat{
+    width: 224px;
+   margin: 0 19px;
+}
+.pizza{
+    width: 240px;
+    margin: 0 11px;
+}
+#pizza-title{
+    padding: 0 85px;
+}
