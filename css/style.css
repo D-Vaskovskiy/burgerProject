@@ -192,9 +192,14 @@ body{
 #pizza-title{
     padding: 0 85px;
 }
+
+/* speacial offer  */
+
+
 .spec-offer-1{
     background-color: #312F30;
     min-height: 550px;
+    padding-bottom: 43px;
 }
 .king-img{
     margin-left: 202px;
@@ -243,3 +248,24 @@ body{
     background-color: #312F30;
 
 } */
+
+/* menu-offer  */
+
+/* сюда писать сс  */
+/* сюда писать сс  */
+/* сюда писать сс  */
+
+
+
+/* если что я сделал контейне в нутрии секции, если что вот его стили .container{
+    margin: 0 auto;
+    max-width: 1169px;
+    padding: 0 15px;
+}
+  */
+/* если что я сделал контейне в нутрии секции, если что вот его стили .container{
+    margin: 0 auto;
+    max-width: 1169px;
+    padding: 0 15px;
+}
+  */
