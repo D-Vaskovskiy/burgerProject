@@ -245,68 +245,51 @@ body{
     margin-top: 130px;
 }
 
-.menu-offer{
-    background: #1C1C1C;
-    height: 1481px;
-}
+/* menu list */
 
-.koffee{
-    position: relative;
-    background-image: url(../img/spec-offer/koffee.png);
-    background-repeat: no-repeat;
-    margin-left: -100px;
-    height: 250px;
-    margin-top: 67px;
-}
-.offer-title{
-    position: absolute;
-    color: #FFFFFF;
+.menu{
+    background-color: #1C1C1C;
+    padding-top: 149px;
     font-weight: 500;
+    
+}
+.coffe{
+    width: 555px;
+    height: 300px;
+    position: relative;
+    background-image: url(./../img/spec-offer/koffee.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.coffe__content{
+    color: #fff;
+    margin-left: 290px;
+    padding-top: 63px;
+    width: 264px;
+
+}
+.coffe__title{
     font-size: 30px;
-    margin-top: 80px;
-    margin-left: 320px;
+    line-height: 35px;
+    padding-bottom: 20px;
 }
-.offer-subtitle{
-    position: absolute;
-    color: #FFFFFF;
+.coffe__text{
+    width: 263px;
+    font-weight: 400;
+    font-size: 16px;
+   line-height: 19px;
     opacity: 0.7;
-    width: 230px;
-    font-size: 16px;
-    margin-top: 141px;
-    margin-left: 320px;
+    padding-bottom: 11px;
+
 }
-.offer-price{
-    position: absolute;
-    color: #F6762C;
-    font-size: 20px;
-    letter-spacing: 0.1em;
-    margin-top: 192px;
-    margin-left: 319px;
-}
-.offer-last-price{
-    position: absolute;
+.price{
+    display: flex;
     font-size: 16px;
-    letter-spacing: 0.1em;
+    column-gap: 10px;
+    color:  #F6762C;
+    padding-bottom: 11px;   
+}
+.last{
     text-decoration-line: line-through;
-    color: #F6762C;
     opacity: 0.5;
-    margin-top: 196px;
-    margin-left: 349px;
 }
-#offer-btn{
-    margin-top: 242px;
-    margin-left: 321px;
-}
-/* menu-offer  */
-
-/* сюда писать сс  */
-/* сюда писать сс  */
-/* сюда писать сс  */
-
-
-
-/* если что я сделал контейне в нутрии секции, если что вот его стили .container{
-    margin: 0 auto;
-    max-width: 1169px;
-    padding: 0 15px;
-*/
