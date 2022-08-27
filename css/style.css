@@ -246,34 +246,58 @@ body{
 }
 
 /* menu list */
-
+.special-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .menu{
     background-color: #1C1C1C;
     padding-top: 149px;
+    padding-bottom: 146px;
     font-weight: 500;
     
 }
-.coffe{
+.coffe__menu,
+ .pizza__menu, 
+ .pitta__menu, 
+ .burger__menu{
+    margin-right: 30px;
+    margin-bottom: 30px;
     width: 555px;
     height: 300px;
     position: relative;
-    background-image: url(./../img/spec-offer/koffee.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    
 }
-.coffe__content{
+.coffe__content,
+.burger__content{
+    
     color: #fff;
     margin-left: 290px;
     padding-top: 63px;
     width: 264px;
-
+    
 }
-.coffe__title{
+.row{
+  
+    color: #fff;
+    margin-left: 50px;
+    padding-top: 63px;
+    max-width: 264px;
+}
+.coffe__title,
+.burger__title,
+.pitta__title,
+.pizza__title
+{
     font-size: 30px;
     line-height: 35px;
     padding-bottom: 20px;
 }
-.coffe__text{
+.coffe__text,
+.burger__text,
+.pizza__text,
+.pitta__text
+{
     width: 263px;
     font-weight: 400;
     font-size: 16px;
@@ -292,4 +316,28 @@ body{
 .last{
     text-decoration-line: line-through;
     opacity: 0.5;
+}
+
+.coffe__menu{
+    background-image: url(./../img/spec-offer/koffee.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.burger__menu{
+    background-image: url(./../img/spec-offer/burger.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.pizza__menu{
+    background-image: url(./../img/spec-offer/pizza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pitta__menu{
+    background-image: url(./../img/spec-offer/snak.png);
+    margin-right: 200px;
+    
+
 }
