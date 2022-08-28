@@ -40,7 +40,7 @@ body{
     min-height: 886px;
     color: #fff;
     background-image: url(./../img/header/header-bgi.png);
-    max-width: 1600;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     
